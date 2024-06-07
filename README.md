@@ -50,6 +50,16 @@ HEAD
 OPTIONS
 TRACE
 DELETE
-PUT
+PUT-replace a resource
 POST
-PATCH
+PATCH-change part of a resource
+
+HTTP status code
+
+1xx-->informational
+2xx-->success
+3xx-->redirection
+4xx-->client error
+5xx-->server error
+
+
